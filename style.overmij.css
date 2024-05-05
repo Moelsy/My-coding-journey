@@ -1,0 +1,75 @@
+body
+{
+background-color: hsl(206, 100%, 14%);
+margin: 8px auto;
+padding: 10px;
+}
+
+/*Style navigation bar*/
+.navbar
+{ 
+display: flex; 
+align-items: center; 
+justify-content: center; 
+text-align: center; 
+margin: 5px auto; 
+padding: 5px; 
+border-radius: 30px; 
+width: 750px; 
+}
+
+.navbar a
+{
+font-style: inter;
+font-size: 15px;
+}
+
+h1
+{
+font-family: inter;
+font-size: 30px;
+margin: 12px;
+padding: 12px;
+}
+
+h1:hover
+{ 
+color: hsl(206, 100%, 14%);
+background-color:rgb(255, 255, 255); 
+border-radius:50px; 
+width: 400px;
+-webkit-border-radius:50px; 
+-moz-border-radius:50px; 
+-ms-border-radius:50px; 
+-o-border-radius:50px;
+}
+
+p
+{
+font-family: inter;
+font-size: 15px;
+margin: 12px;
+padding: 12px;
+}
+
+#contact
+{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin: 5px auto;
+padding: 5px;
+}
+
+/*Style footer*/
+footer
+{
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 12px;
+font-style: inter;
+padding: 5px;
+margin-top: 5px;
+min-height: 200px;
+}

@@ -1,0 +1,157 @@
+body
+{
+background-color: hsl(206, 100%, 14%);
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+
+/*Style navigation bar*/
+.navbar
+{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin: 5px auto;
+padding: 5px;
+border-radius: 30px;
+width: 750px;
+}
+
+.navbar a
+{
+font-style: inter;
+font-size: 15px;
+}
+
+/*Style headings*/
+h1
+{
+color: rgb(255, 255, 255);
+font-size: 40px;
+text-align: center;
+font-family: inter;
+margin-top: 20px;
+margin-left: 50px;
+margin-right: 50px;
+margin-bottom: 20px;
+}
+        
+/*Stijl deel 1: welkomstbericht*/
+#intro
+{
+padding: 10px;
+margin: 12px auto;
+text-align: center;
+}
+
+.card
+{ 
+background-color: hsl(206, 100%, 14%);
+color: white; 
+margin: 5px auto;  
+width: 400px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.card-body
+{
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 10px;
+}
+
+.card-text
+{
+font-size:12px;
+font-family: inter;
+text-align: center;
+margin: 5px auto;
+}
+
+.card img
+{
+border-radius: 30px;
+margin: 5px auto;
+padding: 5px;
+width: 150px;
+height: 150px;
+}
+
+.card button
+{
+font-family: inter;
+font-size: 25px;
+margin-top: 5px;
+margin-left: 5px;
+margin-right: 5px;
+margin-bottom: 5px;
+width: 200px;
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+
+.card button:hover
+{
+border-radius: 30px;
+padding: 10px;
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+margin: 5px auto;
+}
+
+/*Stijl deel 2: over hobby*/
+#ocean
+{
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 15px;
+font-style: inter;
+padding: 5px;
+margin-top: 5px;  
+}
+
+#surf img
+{ 
+border-radius: 50px; 
+margin: 5px auto; 
+padding: 5px; 
+width: 125px; 
+height: 175px; 
+display: flex; 
+align-items: center; 
+justify-content: center; 
+-webkit-border-radius: 50px; 
+-moz-border-radius: 50px; 
+-ms-border-radius: 50px; 
+-o-border-radius: 50px;
+}
+
+#surf img:hover
+{
+width: 175px;
+height: 275px;
+}
+
+/*Style footer*/
+footer
+{
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 12px;
+font-style: inter;
+padding: 5px;
+margin-top: 5px;
+min-height: 200px;
+}

@@ -1,0 +1,124 @@
+body
+{
+background-color: hsl(206, 100%, 14%);
+color: white;
+margin: 8px auto;
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+
+h1
+{
+font-family: inter;
+font-size: 30px;
+margin: 12px;
+padding: 12px;
+text-align: center;
+}
+
+/*Style navigation bar*/
+.navbar
+{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin: 5px auto;
+padding: 5px;
+border-radius: 30px;
+width: 750px;
+}
+
+.navbar a
+{
+font-style: inter;
+font-size: 15px;
+}
+
+/*Stijl contactformulier*/
+#connect
+{
+font-style: inter;
+font-size: 15px;
+padding: 5px;
+margin: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+width: 350px;
+height: 400px;
+}
+
+.container input
+{
+font-size: 15px;
+width: 300px;
+height: 30px;
+}
+
+/*CSS stijl voor de berichtvelden*/
+#connect [type="text"], 
+#connect input[type="email"]
+{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin: 15px; 
+padding: 20px;
+width: 300px;
+height: 30px;
+border-radius: 15px;
+}
+
+#connect textarea
+{ 
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+width: 300px; 
+height: 100px; 
+padding: 5px 10px; 
+margin: 15px; 
+border-radius:15px; 
+background-color:#ffffff; 
+}
+
+#connect button
+{ 
+font-size: 15px; 
+width: 100px; 
+height: 30px; 
+border-radius:30px; 
+-webkit-border-radius:30px; 
+-moz-border-radius:30px; 
+-ms-border-radius:30px; 
+-o-border-radius:30px;
+}
+
+#connect button:active
+{
+font-size: 15px;
+width: 100px;
+height: 30px;
+background-color:rgb(0, 0, 0);
+color:rgb(255, 255, 255);
+border-radius: 50px;
+}
+
+/*Stijl footer*/
+footer
+{
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 12px;
+font-style: inter;
+padding: 5px;
+margin-top: 5px;
+min-height: 200px;
+}
